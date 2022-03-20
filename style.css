@@ -125,6 +125,7 @@ button:hover {
 
 
 .text-container {
+    padding-top: 1em;
     height: 400px;
     margin: 0 auto;
     background-color: #c79a8f;
