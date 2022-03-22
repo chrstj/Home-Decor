@@ -70,7 +70,7 @@ p {
 
 .img-container {
     text-align: center;
-    height: 600px;
+    max-height: 600px;
     background-color: #c79a8f;
 }
 
