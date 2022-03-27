@@ -38,6 +38,10 @@ nav a {
     text-decoration: none;
 }
 
+.current {
+    text-decoration: underline;
+}
+
 
 h1 {
     font-size: 60px;
@@ -48,6 +52,11 @@ h1 {
 h2 {
     text-align: center;
     font-size: 50px;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
 }
 
 
@@ -146,3 +155,37 @@ footer {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
+/* Products page */
+
+.introduction-container {
+        text-align: center;
+        height: 700px;
+        background-color: #c79a8f;
+
+}
+
+.introduction-container img{
+    max-height: 100%;
+    max-width: 100%;
+    filter: contrast(110%);
+
+
+}
+
+
+.product-container {
+    background-color: #FFFF;
+    text-align: center;
+    height: 700px;
+    padding-top: 1em;
+    background-image: url(/images/so-white.png);
+    background-repeat: repeat;
+}
+
+.product-container img {
+    max-height: 400px;
+    padding-bottom: 1em;
+    display: inline-block;
+}
+
